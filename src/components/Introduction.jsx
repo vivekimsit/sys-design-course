@@ -13,7 +13,7 @@ export function Introduction() {
 			<Container className="text-lg tracking-tight text-slate-700">
 				<p className="font-display text-4xl font-bold tracking-tight text-slate-900">
 					“Relearn” is a course that teaches you to build a strong foundation in
-					web development and design systems that can scale..
+					web development and design systems that can scale.
 				</p>
 				<p className="mt-4">
 					Before I learned how to design icons myself, I always imagined that
@@ -25,7 +25,7 @@ export function Introduction() {
 					But it turns out this isn’t how great icon designers work at all.
 				</p>
 				<p className="mt-4">
-					In “Relearn”, you'll acquire the skills and knowledge needed to create
+					In "Relearn", you'll acquire the skills and knowledge needed to create
 					web applications and design scalable systems that can meet the demands
 					of users and businesses alike.
 				</p>
