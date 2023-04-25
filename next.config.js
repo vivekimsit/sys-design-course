@@ -2,7 +2,7 @@
 
 const nextConfig = {
   reactStrictMode: true,
-  assetPrefix: 'https://sys-design-course.vercel.app',
+  // assetPrefix: 'https://sys-design-course.vercel.app',
   experimental: {
     scrollRestoration: true,
   },
