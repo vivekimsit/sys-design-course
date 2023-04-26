@@ -10,6 +10,9 @@ const nextConfig = {
   experimental: {
     scrollRestoration: true,
   },
+  images: {
+    disableStaticImages: true,
+  },
 }
 
 module.exports = nextConfig
