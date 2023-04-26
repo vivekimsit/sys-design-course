@@ -7,10 +7,6 @@ const assetPrefix =
 
 const nextConfig = {
   reactStrictMode: true,
-  assetPrefix,
-  // publicRuntimeConfig: {
-  //   assetPrefix,
-  // },
   experimental: {
     scrollRestoration: true,
   },
