@@ -7,7 +7,7 @@ const assetPrefix =
 
 const nextConfig = {
   reactStrictMode: true,
-  assetPrefix: 'https://bright-kringle-122bbb.netlify.app',
+  assetPrefix,
   experimental: {
     scrollRestoration: true,
   },

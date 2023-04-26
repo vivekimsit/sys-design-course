@@ -28,9 +28,11 @@ export function Author() {
           <div className="relative mx-auto -mt-16 h-44 w-44 overflow-hidden rounded-full bg-slate-200 md:float-right md:h-64 md:w-64 md:[shape-outside:circle(40%)] lg:mr-20 lg:h-72 lg:w-72">
             <Image
               className="absolute inset-0 h-full w-full object-cover"
-              src={authorImage}
+              src={authorImage.src}
               alt=""
               sizes="(min-width: 1024px) 18rem, (min-width: 768px) 16rem, 11rem"
+              width={288}
+              height={288}
             />
           </div>
           <div className="px-4 py-10 sm:px-10 sm:py-16 md:py-20 lg:px-20 lg:py-32">
