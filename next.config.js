@@ -7,11 +7,9 @@ const assetPrefix =
 
 const nextConfig = {
   reactStrictMode: true,
+  // assetPrefix,
   experimental: {
     scrollRestoration: true,
-  },
-  images: {
-    disableStaticImages: true,
   },
 }
 
