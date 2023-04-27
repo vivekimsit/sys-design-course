@@ -13,15 +13,16 @@ function Testimonial() {
       </div>
       <blockquote className="mt-2">
         <p className="font-display text-xl font-medium text-slate-900">
-          “This method of designing icons is genius. I wish I had known this
-          method a lot sooner.”
+          “The comprehensive curriculum and hands-on exercises provided in this
+          course enabled our team to take our web development and system design
+          skills to new heights. Highly recommended!”
         </p>
       </blockquote>
       <figcaption className="mt-2 text-sm text-slate-500">
         <strong className="font-semibold text-blue-600 before:content-['—_']">
-          Stacey Solomon
+          Shin Kim
         </strong>
-        , Founder at Retail Park
+        , Founder at Eraser
       </figcaption>
     </figure>
   )

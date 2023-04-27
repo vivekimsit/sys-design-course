@@ -4,49 +4,54 @@ import { Container } from '@/components/Container'
 import { SectionHeading } from '@/components/SectionHeading'
 import abstractBackgroundImage from '@/images/resources/abstract-background.png'
 import discordImage from '@/images/resources/discord.svg'
-import figmaImage from '@/images/resources/figma.svg'
-import videoPlayerImage from '@/images/resources/video-player.svg'
+// import figmaImage from '@/images/resources/figma.svg'
+import mdn from '@/images/resources/mdn.jpeg'
+import highscalability from '@/images/resources/highscalability.jpeg'
+// import videoPlayerImage from '@/images/resources/video-player.svg'
 
 const resources = [
   {
-    title: 'Figma icon templates',
+    title: 'Mozilla web docs',
     description:
-      'Pefectly structured templates for quickly designing new icons at dozens of common sizes.',
+      'Documenting web technologies, including CSS, HTML, and JavaScript, since 2005.',
     image: function FigmaImage() {
       return (
         <div className="absolute inset-0 flex items-center justify-center bg-[radial-gradient(#2C313D_35%,#000)]">
-          <Image src={figmaImage} alt="" unoptimized />
+          <Image src={mdn} alt="" unoptimized />
         </div>
       )
     },
   },
   {
-    title: 'Weekly icon teardowns',
+    title: 'Learn System Design from Real-World Examples',
     description:
-      'Weekly videos where we dissect and recreate beautiful icons we find on the web.',
+      'Explore system design concepts and best practices through case studies, articles, and design patterns from industry-leading systems.',
     image: function VideoPlayerImage() {
       return (
-        <div className="absolute inset-0 flex items-center justify-center">
-          <Image
-            className="absolute inset-0 h-full w-full object-cover"
-            src={abstractBackgroundImage}
-            alt=""
-            sizes="(min-width: 1280px) 21rem, (min-width: 1024px) 33vw, (min-width: 768px) 19rem, (min-width: 640px) 50vw, 100vw"
-          />
-          <Image
-            className="relative"
-            src={videoPlayerImage}
-            alt=""
-            unoptimized
-          />
+        <div className="absolute inset-0 flex items-center justify-center bg-[radial-gradient(#2C313D_35%,#000)]">
+          <Image src={highscalability} alt="" unoptimized />
         </div>
+        // <div className="absolute inset-0 flex items-center justify-center">
+        //   <Image
+        //     className="absolute inset-0 h-full w-full object-cover"
+        //     src={abstractBackgroundImage}
+        //     alt=""
+        //     sizes="(min-width: 1280px) 21rem, (min-width: 1024px) 33vw, (min-width: 768px) 19rem, (min-width: 640px) 50vw, 100vw"
+        //   />
+        //   <Image
+        //     className="relative"
+        //     src={highscalability}
+        //     alt=""
+        //     unoptimized
+        //   />
+        // </div>
       )
     },
   },
   {
-    title: 'Community of icon designers',
+    title: 'Community of software engineers',
     description:
-      "A private Discord server where you can get help and give feedback on each others' work.",
+      'CS Career Hub was created to help guide engineers at any point in their career. Over 20,000 users have joined our community, ranging from first-year students to hiring managers.',
     image: function DiscordImage() {
       return (
         <div className="absolute inset-0 flex items-center justify-center bg-[#6366F1]">
