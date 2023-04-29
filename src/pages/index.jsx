@@ -46,7 +46,7 @@ export default function Home() {
           development and system design capabilities.”
         </p>
       </Testimonial>
-      <Screencasts />
+      {/* <Screencasts /> */}
       <Testimonial
         id="testimonial-from-gerardo-stark"
         author={{

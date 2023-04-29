@@ -55,7 +55,7 @@ export function Introduction() {
             href="#free-chapters"
             className="text-base font-medium text-blue-600 hover:text-blue-800"
           >
-            Get two free chapters straight to your inbox{' '}
+            Get two free content straight to your inbox{' '}
             <span aria-hidden="true">&rarr;</span>
           </Link>
         </p>

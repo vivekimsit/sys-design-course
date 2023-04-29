@@ -59,7 +59,7 @@ export function Hero() {
             </p>
             <div className="mt-8 flex gap-4">
               <Button href="#free-chapters" color="blue">
-                Get sample chapter
+                Get sample content
               </Button>
               <Button href="#pricing" variant="outline" color="blue">
                 Buy book

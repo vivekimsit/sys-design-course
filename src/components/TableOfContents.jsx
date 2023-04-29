@@ -4,33 +4,33 @@ import { SectionHeading } from '@/components/SectionHeading'
 
 const tableOfContents = {
   'Introduction to Web Development': {
-    'Web development basics': 1,
-    HTML5: 15,
-    CSS3: 20,
-    'Responsive design': 25,
+    'Web development basics': 2,
+    HTML5: 1,
+    CSS3: 2,
+    'Responsive design': 2,
   },
   'JavaScript and Web Frameworks': {
-    'JavaScript fundamentals': 21,
-    'DOM manipulation': 22,
-    React: 26,
-    'Next.js': 31,
+    'JavaScript fundamentals': 4,
+    'DOM manipulation': 2,
+    React: 2,
+    'Next.js': 2,
   },
   'Back-End Development': {
-    'Node.js': 50,
-    'Express.js': 57,
-    'RESTful APIs': 66,
-    Databases: 78,
+    'Node.js': 2,
+    'Express.js': 2,
+    'RESTful APIs': 4,
+    Databases: 4,
   },
   'System Design Principles': {
-    'Scalability and fault tolerance': 82,
-    'Performance optimization': 88,
-    'Security best practices': 95,
-    'Cloud architecture': 100,
+    'Scalability and fault tolerance': 8,
+    'Performance optimization': 8,
+    'Security best practices': 8,
+    'Cloud architecture': 8,
   },
   'Capstone Project': {
-    'Applying web development and system design principles in practice': 82,
-    'Developing a scalable web application with Next.js': 88,
-    'Project presentation and feedback': 95,
+    'Applying web development and system design principles in practice': 16,
+    'Developing a scalable web application with Next.js': 16,
+    'Project presentation and feedback': 16,
   },
 }
 
