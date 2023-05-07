@@ -62,7 +62,7 @@ export function Hero() {
                 Get sample content
               </Button>
               <Button href="#pricing" variant="outline" color="blue">
-                Buy book
+                Buy course
               </Button>
             </div>
           </div>

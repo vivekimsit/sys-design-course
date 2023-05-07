@@ -3,34 +3,34 @@ import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
 import { Expandable } from '@/components/Expandable'
-import avatarImage3 from '@/images/avatars/avatar-3.png'
-import avatarImage4 from '@/images/avatars/avatar-4.png'
-import avatarImage5 from '@/images/avatars/avatar-5.png'
+import whizzzkid from '@/images/avatars/whizzzkid.jpg'
+import love from '@/images/avatars/love.jpeg'
+import fang from '@/images/avatars/fang.jpeg'
 import avatarImage6 from '@/images/avatars/avatar-6.png'
-import avatarImage7 from '@/images/avatars/avatar-7.png'
+import ravi from '@/images/avatars/ravi.jpeg'
 import avatarImage8 from '@/images/avatars/avatar-8.png'
 import avatarImage9 from '@/images/avatars/avatar-9.png'
-import avatarImage10 from '@/images/avatars/avatar-10.png'
-import avatarImage11 from '@/images/avatars/avatar-11.png'
+import ravikiran from '@/images/avatars/ravikiran.jpeg'
+import chinmay from '@/images/avatars/chinmay.jpeg'
 
 const testimonials = [
   [
     {
       content:
-        'Mira’s teaching style is second to none. Everything was easy to follow every step of the way.',
+        'Vivek’s teaching style is second to none. Everything was easy to follow every step of the way.',
       author: {
-        name: 'Antonio Littel',
-        role: 'Frontend Developer',
-        image: avatarImage3,
+        name: 'Nishant Arora',
+        role: 'Software Developer',
+        image: whizzzkid,
       },
     },
     {
       content:
-        'Even though I was excited to learn, I was pessimistic that I wouldn’t actually ever get good enough to design my own icons. I was wrong — this book is all I needed.',
+        'I`ve always admired Vivek`s knowledge and talent in web development and system design, and this course is a perfect reflection of that. I highly recommend it to anyone looking to advance their skills.',
       author: {
-        name: 'Lynn Nolan',
-        role: 'Growth Marketer',
-        image: avatarImage4,
+        name: 'Love Sharma',
+        role: 'Software Engineer',
+        image: love,
       },
     },
     {
@@ -46,20 +46,20 @@ const testimonials = [
   [
     {
       content:
-        'I run an ecommerce store selling rare vintage gummy bears and could never find a good gummy bear icon. Now I can design my own in minutes.',
+        'Vivek`s web development and system design course has been instrumental in my success. The practical exercises and real-world examples have helped me become a more confident and skilled developer.',
       author: {
-        name: 'Cameron Considine',
-        role: 'Entrepreneur',
-        image: avatarImage7,
+        name: 'Ravi Kumar',
+        role: 'Lead Engineer',
+        image: ravi,
       },
     },
     {
       content:
-        'The complete package is worth it for the weekly teardown videos alone. I’ve learned so much watching Mira take apart other icons and recreate them from scratch.',
+        'Thanks to this course, I`ve not only learned valuable web development techniques but also gained a solid understanding of system design. The instructor`s passion for teaching shines through in every lesson.',
       author: {
-        name: 'Regina Wisoky',
-        role: 'Design Student',
-        image: avatarImage11,
+        name: 'Chinmay Arankalle',
+        role: 'Big data engineer',
+        image: chinmay,
       },
     },
     {
@@ -75,20 +75,20 @@ const testimonials = [
   [
     {
       content:
-        'I couldn’t believe how fast Mira moved in Figma compared to my own workflow. I’m designing icons more accurately in half the time with the shortcuts I learned from her videos.',
+        'Vivek`s vast experience in web development and system design, combined with his engaging teaching style, make his course a valuable asset for anyone looking to learn. I can vouch for his dedication and expertise as an instructor!',
       author: {
-        name: 'Steven Hackett',
-        role: 'Bootcamp Instructor',
-        image: avatarImage5,
+        name: 'Fang Ren',
+        role: 'Staff Engineer at Meta',
+        image: fang,
       },
     },
     {
       content:
-        'I never thought I would enjoy designing icons but using the ideas in this book, it’s become a great way for me to relax while still being creative.',
+        'The step-by-step guidance provided in this course helped me refine my web development skills and grasp system design effortlessly. I wish I had discovered this gem of a course sooner!',
       author: {
-        name: 'Carla Schoen',
-        role: 'Startup Founder',
-        image: avatarImage10,
+        name: 'Ravi Kiran M',
+        role: 'DevSecOps Specialist',
+        image: ravikiran,
       },
     },
     {
@@ -140,9 +140,9 @@ export function Testimonials() {
           Some kind words from early customers...
         </h2>
         <p className="mt-4 text-lg tracking-tight text-slate-600">
-          I worked with a small group of early access customers to make sure all
-          of the content in the book was exactly what they needed. Hears what
-          they had to say about the finished product.
+          I worked with a small group of early access customers and friends to
+          make sure all of the content in the course was exactly what they
+          needed. Hears what they had to say about the finished product.
         </p>
       </Container>
       <Expandable>
@@ -187,7 +187,7 @@ export function Testimonials() {
                 </li>
               ))}
             </ul>
-            <Expandable.Button>Read more testimonials</Expandable.Button>
+            {/* <Expandable.Button>Read more testimonials</Expandable.Button> */}
           </>
         )}
       </Expandable>
